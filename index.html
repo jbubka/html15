@@ -12,14 +12,14 @@
         <li>
           <a href="#aboutUs">About us</a>
         </li>
-        <li> <a href="#skills"> Skills</a></li>
-        <li> <a href="#portfolio"> Portfolio</a></li>
+        <li><a href="#skills"> Skills</a></li>
+        <li><a href="#portfolio"> Portfolio</a></li>
         <li><a href="#contact"> Contact</a></li>
       </ul>
     </nav>
 
     <section id="aboutUs">
-      <h1>O nas</h1>
+      <h2>O nas</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nihil rem
         reiciendis fugiat repellat alias molestias, sequi nam vel earum!
@@ -69,22 +69,35 @@
     </section>
 
     <section id="portfolio">
-<h2>Portfolio</h2>
-<div class="portfolio-item">
-  <img src="kotek.jpg" alt="kotek">
-</div>
+      <h2>Portfolio</h2>
+      <div class="portfolio-item">
+        <img src="kotek.jpg" alt="kotek" />
+      </div>
 
-<div class="portfolio-item">
-  <img src="krolik.jpg" alt="królik">
-</div>
+      <div class="portfolio-item">
+        <img src="krolik.jpg" alt="królik" />
+      </div>
 
-<div class="portfolio-item">
-  <img src="pies.jpg" alt="pies">
-</div>
+      <div class="portfolio-item">
+        <img src="pies.jpg" alt="pies" />
+      </div>
     </section>
 
     <section id="contact">
+      <h2>Jolanta Bubka</h2>
 
+      <address>Krakowska 100 Michałowice 32-091 Michałowice</address>
+
+      <form>
+        <label for="fname">Imię:</label><br />
+        <input type="text" id="fname" name="fname" required /><br />
+        <label for="top">Temat:</label><br />
+        <input type="text" id="top" name="top" required /><br />
+        <label for="mess">Wiadomość:</label><br />
+        <input type="text" id="mess" name="mess" required /><br />
+
+        <input type="submit" value="Wyślij" />
+      </form>
     </section>
   </body>
 </html>
